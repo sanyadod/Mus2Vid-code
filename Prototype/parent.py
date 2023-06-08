@@ -9,6 +9,8 @@ from basic_pitch import ICASSP_2022_MODEL_PATH
 BASIC_PITCH_MODEL = tf.saved_model.load(str(ICASSP_2022_MODEL_PATH))
 from diffusers import StableDiffusionPipeline
 stable_diffusion_model_id = "runwayml/stable-diffusion-v1-5"
+# from ..Basic_Pitch.chordfuncs import *
+
 
 # Parameters
 STD_ONSET = 0.3
